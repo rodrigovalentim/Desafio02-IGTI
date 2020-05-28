@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Filtrar Dados</title>
+</head>
+<body>
+  <h2>Pesquisa de Usuário</h2>
+  <div id="busca">
+    <input id="pesquisa" placeholder="Digite o nome para filtrar" onkeyup="handleKeyUp(event)" />
+    <button id="btnpesquisa" type="submit">BUSCAR</button>
+  </div>
+  
+  <div id="resultado">
+    <div id="filter">
+      <h6 id="filtrado">Nenhum usuário Filtrado</h6>
+    </div>
+    <div id="data">
+      
+    </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+
+</body>
+</html>
